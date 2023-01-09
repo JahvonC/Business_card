@@ -2,7 +2,7 @@
 module.exports = {
   mode: 'jit',
   purge: ['*.html'],
-  content: [],
+  content: ['./components/**/*.{html,js}'],
   theme: {
     extend: {},
   },
